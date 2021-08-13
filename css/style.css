@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-body);
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
 }
@@ -86,5 +86,38 @@ a {
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* Badges */
+
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+}
+
+.badge--small {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
